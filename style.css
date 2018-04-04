@@ -1,0 +1,35 @@
+
+body {
+	margin: 0px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	color: rgba(0, 0, 0, 0.5);
+	font-family: 'Short Stack', cursive;
+	font-size: 2em;
+	border-bottom: 1px solid #D0CFCF;
+	text-align: center;
+	-moz-box-shadow: 4px 4px 5px #D0CFCF;
+	-ms-box-shadow: 4px 4px 5px #D0CFCF;
+	-webkit-box-shadow: 4px 4px 5px #D0CFCF;
+	-o-box-shadow: 4px 4px 5px #D0CFCF; 
+	box-shadow: 0px 1px 1px 0px #D0CFCF;
+	padding: 20px;
+}
+
+img {
+	width:450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 2s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
